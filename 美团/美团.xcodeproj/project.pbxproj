@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0441E271C8DEAD100082CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E261C8DEAD100082CEA /* main.m */; };
-		E0441E2A1C8DEAD100082CEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E291C8DEAD100082CEA /* AppDelegate.m */; };
-		E0441E2D1C8DEAD100082CEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E2C1C8DEAD100082CEA /* ViewController.m */; };
-		E0441E301C8DEAD100082CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0441E2E1C8DEAD100082CEA /* Main.storyboard */; };
 		E0441E321C8DEAD100082CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0441E311C8DEAD100082CEA /* Assets.xcassets */; };
 		E0441E351C8DEAD100082CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0441E331C8DEAD100082CEA /* LaunchScreen.storyboard */; };
+		E0441E681C8F292700082CEA /* FYYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E541C8F292700082CEA /* FYYHomeViewController.m */; };
+		E0441E691C8F292700082CEA /* FYYHeaderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E571C8F292700082CEA /* FYYHeaderItem.m */; };
+		E0441E6A1C8F292700082CEA /* FYYHeaderItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0441E581C8F292700082CEA /* FYYHeaderItem.xib */; };
+		E0441E6B1C8F292700082CEA /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E5C1C8F292700082CEA /* UIBarButtonItem+Extension.m */; };
+		E0441E6C1C8F292700082CEA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E5E1C8F292700082CEA /* UIView+Frame.m */; };
+		E0441E6D1C8F292700082CEA /* FYYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E611C8F292700082CEA /* FYYNavigationController.m */; };
+		E0441E6E1C8F292700082CEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E641C8F292700082CEA /* AppDelegate.m */; };
+		E0441E6F1C8F292700082CEA /* FYYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E661C8F292700082CEA /* FYYConst.m */; };
+		E0441E701C8F292700082CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E671C8F292700082CEA /* main.m */; };
+		E0441E731C8F2CC000082CEA /* FYYHomeDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E721C8F2CC000082CEA /* FYYHomeDropDown.m */; };
+		E0441E751C8F2D3400082CEA /* FYYHomeDropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0441E741C8F2D3400082CEA /* FYYHomeDropDown.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0441E221C8DEAD100082CEA /* 美团.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美团.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0441E261C8DEAD100082CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0441E281C8DEAD100082CEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E0441E291C8DEAD100082CEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0441E2B1C8DEAD100082CEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0441E2C1C8DEAD100082CEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0441E2F1C8DEAD100082CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0441E311C8DEAD100082CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0441E341C8DEAD100082CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0441E361C8DEAD100082CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0441E531C8F292700082CEA /* FYYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYHomeViewController.h; sourceTree = "<group>"; };
+		E0441E541C8F292700082CEA /* FYYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYHomeViewController.m; sourceTree = "<group>"; };
+		E0441E561C8F292700082CEA /* FYYHeaderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYHeaderItem.h; sourceTree = "<group>"; };
+		E0441E571C8F292700082CEA /* FYYHeaderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYHeaderItem.m; sourceTree = "<group>"; };
+		E0441E581C8F292700082CEA /* FYYHeaderItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYYHeaderItem.xib; sourceTree = "<group>"; };
+		E0441E5B1C8F292700082CEA /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E0441E5C1C8F292700082CEA /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		E0441E5D1C8F292700082CEA /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E0441E5E1C8F292700082CEA /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E0441E601C8F292700082CEA /* FYYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYNavigationController.h; sourceTree = "<group>"; };
+		E0441E611C8F292700082CEA /* FYYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYNavigationController.m; sourceTree = "<group>"; };
+		E0441E631C8F292700082CEA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0441E641C8F292700082CEA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0441E651C8F292700082CEA /* FYYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYConst.h; sourceTree = "<group>"; };
+		E0441E661C8F292700082CEA /* FYYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYConst.m; sourceTree = "<group>"; };
+		E0441E671C8F292700082CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0441E711C8F2CC000082CEA /* FYYHomeDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYHomeDropDown.h; sourceTree = "<group>"; };
+		E0441E721C8F2CC000082CEA /* FYYHomeDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYHomeDropDown.m; sourceTree = "<group>"; };
+		E0441E741C8F2D3400082CEA /* FYYHomeDropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYYHomeDropDown.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +78,7 @@
 		E0441E241C8DEAD100082CEA /* 美团 */ = {
 			isa = PBXGroup;
 			children = (
-				E0441E281C8DEAD100082CEA /* AppDelegate.h */,
-				E0441E291C8DEAD100082CEA /* AppDelegate.m */,
-				E0441E2B1C8DEAD100082CEA /* ViewController.h */,
-				E0441E2C1C8DEAD100082CEA /* ViewController.m */,
-				E0441E2E1C8DEAD100082CEA /* Main.storyboard */,
+				E0441E501C8F292700082CEA /* Classes */,
 				E0441E311C8DEAD100082CEA /* Assets.xcassets */,
 				E0441E331C8DEAD100082CEA /* LaunchScreen.storyboard */,
 				E0441E361C8DEAD100082CEA /* Info.plist */,
@@ -74,9 +90,90 @@
 		E0441E251C8DEAD100082CEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E0441E261C8DEAD100082CEA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0441E501C8F292700082CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E511C8F292700082CEA /* Home */,
+				E0441E591C8F292700082CEA /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E0441E511C8F292700082CEA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E521C8F292700082CEA /* Controller */,
+				E0441E551C8F292700082CEA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E0441E521C8F292700082CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E531C8F292700082CEA /* FYYHomeViewController.h */,
+				E0441E541C8F292700082CEA /* FYYHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0441E551C8F292700082CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E561C8F292700082CEA /* FYYHeaderItem.h */,
+				E0441E571C8F292700082CEA /* FYYHeaderItem.m */,
+				E0441E581C8F292700082CEA /* FYYHeaderItem.xib */,
+				E0441E741C8F2D3400082CEA /* FYYHomeDropDown.xib */,
+				E0441E711C8F2CC000082CEA /* FYYHomeDropDown.h */,
+				E0441E721C8F2CC000082CEA /* FYYHomeDropDown.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0441E591C8F292700082CEA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E5A1C8F292700082CEA /* Category */,
+				E0441E5F1C8F292700082CEA /* Controller */,
+				E0441E621C8F292700082CEA /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E0441E5A1C8F292700082CEA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E5B1C8F292700082CEA /* UIBarButtonItem+Extension.h */,
+				E0441E5C1C8F292700082CEA /* UIBarButtonItem+Extension.m */,
+				E0441E5D1C8F292700082CEA /* UIView+Frame.h */,
+				E0441E5E1C8F292700082CEA /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0441E5F1C8F292700082CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E601C8F292700082CEA /* FYYNavigationController.h */,
+				E0441E611C8F292700082CEA /* FYYNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0441E621C8F292700082CEA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E0441E631C8F292700082CEA /* AppDelegate.h */,
+				E0441E641C8F292700082CEA /* AppDelegate.m */,
+				E0441E651C8F292700082CEA /* FYYConst.h */,
+				E0441E661C8F292700082CEA /* FYYConst.m */,
+				E0441E671C8F292700082CEA /* main.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0441E351C8DEAD100082CEA /* LaunchScreen.storyboard in Resources */,
+				E0441E6A1C8F292700082CEA /* FYYHeaderItem.xib in Resources */,
+				E0441E751C8F2D3400082CEA /* FYYHomeDropDown.xib in Resources */,
 				E0441E321C8DEAD100082CEA /* Assets.xcassets in Resources */,
-				E0441E301C8DEAD100082CEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +248,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0441E2D1C8DEAD100082CEA /* ViewController.m in Sources */,
-				E0441E2A1C8DEAD100082CEA /* AppDelegate.m in Sources */,
-				E0441E271C8DEAD100082CEA /* main.m in Sources */,
+				E0441E6C1C8F292700082CEA /* UIView+Frame.m in Sources */,
+				E0441E6F1C8F292700082CEA /* FYYConst.m in Sources */,
+				E0441E691C8F292700082CEA /* FYYHeaderItem.m in Sources */,
+				E0441E701C8F292700082CEA /* main.m in Sources */,
+				E0441E6E1C8F292700082CEA /* AppDelegate.m in Sources */,
+				E0441E731C8F2CC000082CEA /* FYYHomeDropDown.m in Sources */,
+				E0441E6D1C8F292700082CEA /* FYYNavigationController.m in Sources */,
+				E0441E6B1C8F292700082CEA /* UIBarButtonItem+Extension.m in Sources */,
+				E0441E681C8F292700082CEA /* FYYHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0441E2E1C8DEAD100082CEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0441E2F1C8DEAD100082CEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0441E331C8DEAD100082CEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
