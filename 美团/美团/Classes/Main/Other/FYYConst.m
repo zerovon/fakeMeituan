@@ -6,8 +6,19 @@
 //  Copyright © 2016年 冯钰洋. All rights reserved.
 //
 
-#import "FYYConst.h"
+#import <Foundation/Foundation.h>
 
-@implementation FYYConst
+NSString *const FYYCityDidSelectNotification = @"FYYCityDidSelectNotification";
+NSString *const FYYSelectCityName = @"FYYSelectCity";
 
-@end
+
+NSString *const FYYSortDidChageNotification = @"FYYSortDidChageNotification";
+NSString *const FYYSelectSort = @"FYYSelectSort";
+
+NSString *const FYYCategoryDidChageNotification = @"FYYCategoryDidChageNotification";
+NSString *const FYYSelectCategory = @"FYYSelectCategory";
+NSString *const FYYSelectSubCategory = @"FYYSelectSubCategory";
+
+NSString *const FYYDistrictDidChageNotification =@"FYYDistrictDidChageNotification";
+NSString *const FYYSelectDistrict = @"FYYSelectDistrict";
+NSString *const FYYSelectSubDistrict =@"FYYSelectSubDistrict";

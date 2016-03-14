@@ -10,6 +10,8 @@
 
 @interface FYYHeaderItem()
 @property (weak, nonatomic) IBOutlet UIButton *iconButton;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subTitleLabel;
 
 
 
@@ -25,5 +27,27 @@
 {
     [self.iconButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 }
+
+- (void)awakeFromNib{
+    self.autoresizingMask = UIViewAutoresizingNone;
+}
+
+- (void)setTitle:(NSString *)title
+{
+    self.titleLabel.text = title;
+}
+
+- (void)setSubTitle:(NSString *)subTitle
+{
+    self.subTitleLabel.text = subTitle;
+}
+
+- (void)setIcon:(NSString *)icon highLightIcon:(NSString *)hIon
+{
+    [self.iconButton setImage:[UIImage imageNamed:icon] forState:UIControlStateNormal];
+    [self.iconButton setImage:[UIImage imageNamed:hIon] forState:UIControlStateHighlighted];
+}
+
+
 
 @end

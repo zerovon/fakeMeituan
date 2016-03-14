@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E00D776B1C95C014000CBFCA /* FYYSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D776A1C95C014000CBFCA /* FYYSort.m */; };
+		E00D776E1C95C142000CBFCA /* FYYSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D776D1C95C142000CBFCA /* FYYSortViewController.m */; };
+		E00D77A31C96DDA4000CBFCA /* DPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D779F1C96DDA4000CBFCA /* DPAPI.m */; };
+		E00D77A41C96DDA4000CBFCA /* DPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D77A21C96DDA4000CBFCA /* DPRequest.m */; };
 		E0441E321C8DEAD100082CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0441E311C8DEAD100082CEA /* Assets.xcassets */; };
 		E0441E351C8DEAD100082CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0441E331C8DEAD100082CEA /* LaunchScreen.storyboard */; };
 		E0441E681C8F292700082CEA /* FYYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E541C8F292700082CEA /* FYYHomeViewController.m */; };
@@ -20,9 +24,48 @@
 		E0441E701C8F292700082CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E671C8F292700082CEA /* main.m */; };
 		E0441E731C8F2CC000082CEA /* FYYHomeDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441E721C8F2CC000082CEA /* FYYHomeDropDown.m */; };
 		E0441E751C8F2D3400082CEA /* FYYHomeDropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0441E741C8F2D3400082CEA /* FYYHomeDropDown.xib */; };
+		E080B7DE1C8FCBFD00ACD026 /* FYYCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7DD1C8FCBFD00ACD026 /* FYYCategoryViewController.m */; };
+		E080B7E41C8FF31E00ACD026 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = E080B7E01C8FF31E00ACD026 /* categories.plist */; };
+		E080B7E51C8FF31E00ACD026 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = E080B7E11C8FF31E00ACD026 /* cities.plist */; };
+		E080B7E61C8FF31E00ACD026 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = E080B7E21C8FF31E00ACD026 /* cityGroups.plist */; };
+		E080B7E71C8FF31E00ACD026 /* sorts.plist in Resources */ = {isa = PBXBuildFile; fileRef = E080B7E31C8FF31E00ACD026 /* sorts.plist */; };
+		E080B7EB1C8FF9B000ACD026 /* FYYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7EA1C8FF9B000ACD026 /* FYYCategory.m */; };
+		E080B8051C8FFD4C00ACD026 /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7EF1C8FFD4C00ACD026 /* MJArgument.m */; };
+		E080B8061C8FFD4C00ACD026 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7F11C8FFD4C00ACD026 /* MJConst.m */; };
+		E080B8071C8FFD4C00ACD026 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7F41C8FFD4C00ACD026 /* MJFoundation.m */; };
+		E080B8081C8FFD4C00ACD026 /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7F61C8FFD4C00ACD026 /* MJIvar.m */; };
+		E080B8091C8FFD4C00ACD026 /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7F81C8FFD4C00ACD026 /* MJMember.m */; };
+		E080B80A1C8FFD4C00ACD026 /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7FA1C8FFD4C00ACD026 /* MJMethod.m */; };
+		E080B80B1C8FFD4C00ACD026 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7FC1C8FFD4C00ACD026 /* MJType.m */; };
+		E080B80C1C8FFD4C00ACD026 /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B7FE1C8FFD4C00ACD026 /* MJTypeEncoding.m */; };
+		E080B80D1C8FFD4C00ACD026 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8001C8FFD4C00ACD026 /* NSObject+MJCoding.m */; };
+		E080B80E1C8FFD4C00ACD026 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8021C8FFD4C00ACD026 /* NSObject+MJKeyValue.m */; };
+		E080B80F1C8FFD4C00ACD026 /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8041C8FFD4C00ACD026 /* NSObject+MJMember.m */; };
+		E080B8121C90333700ACD026 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8111C90333700ACD026 /* UIView+Extension.m */; };
+		E080B8151C90828000ACD026 /* FYYHomeDropDownMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8141C90828000ACD026 /* FYYHomeDropDownMainCell.m */; };
+		E080B8181C9082A400ACD026 /* FYYHomeDropDownSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8171C9082A400ACD026 /* FYYHomeDropDownSubCell.m */; };
+		E080B8291C90951100ACD026 /* FYYDistrictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8271C90951100ACD026 /* FYYDistrictViewController.m */; };
+		E080B82A1C90951100ACD026 /* FYYDistrictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E080B8281C90951100ACD026 /* FYYDistrictViewController.xib */; };
+		E080B84F1C911DDC00ACD026 /* FYYCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B84D1C911DDC00ACD026 /* FYYCityViewController.m */; };
+		E080B8501C911DDC00ACD026 /* FYYCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E080B84E1C911DDC00ACD026 /* FYYCityViewController.xib */; };
+		E080B8531C91291000ACD026 /* FYYCity.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8521C91291000ACD026 /* FYYCity.m */; };
+		E080B8561C9129EA00ACD026 /* FYYRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = E080B8551C9129EA00ACD026 /* FYYRegion.m */; };
+		E0A28A741C91304A00666AA4 /* FYYCityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A28A731C91304A00666AA4 /* FYYCityGroup.m */; };
+		E0C693711C91AEE600141D31 /* FYYSearchCityResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C693701C91AEE600141D31 /* FYYSearchCityResultViewController.m */; };
+		E0C693741C91B66400141D31 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C693731C91B66400141D31 /* UIView+AutoLayout.m */; };
+		E0C693781C954BD200141D31 /* FYYMetaUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C693771C954BD200141D31 /* FYYMetaUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E00D77691C95C014000CBFCA /* FYYSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYSort.h; sourceTree = "<group>"; };
+		E00D776A1C95C014000CBFCA /* FYYSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYSort.m; sourceTree = "<group>"; };
+		E00D776C1C95C142000CBFCA /* FYYSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYSortViewController.h; sourceTree = "<group>"; };
+		E00D776D1C95C142000CBFCA /* FYYSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYSortViewController.m; sourceTree = "<group>"; };
+		E00D779E1C96DDA4000CBFCA /* DPAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAPI.h; sourceTree = "<group>"; };
+		E00D779F1C96DDA4000CBFCA /* DPAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAPI.m; sourceTree = "<group>"; };
+		E00D77A01C96DDA4000CBFCA /* DPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPConstants.h; sourceTree = "<group>"; };
+		E00D77A11C96DDA4000CBFCA /* DPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRequest.h; sourceTree = "<group>"; };
+		E00D77A21C96DDA4000CBFCA /* DPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRequest.m; sourceTree = "<group>"; };
 		E0441E221C8DEAD100082CEA /* 美团.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美团.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0441E311C8DEAD100082CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0441E341C8DEAD100082CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +89,61 @@
 		E0441E711C8F2CC000082CEA /* FYYHomeDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYHomeDropDown.h; sourceTree = "<group>"; };
 		E0441E721C8F2CC000082CEA /* FYYHomeDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYHomeDropDown.m; sourceTree = "<group>"; };
 		E0441E741C8F2D3400082CEA /* FYYHomeDropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYYHomeDropDown.xib; sourceTree = "<group>"; };
+		E080B7DC1C8FCBFD00ACD026 /* FYYCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYCategoryViewController.h; sourceTree = "<group>"; };
+		E080B7DD1C8FCBFD00ACD026 /* FYYCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYCategoryViewController.m; sourceTree = "<group>"; };
+		E080B7E01C8FF31E00ACD026 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		E080B7E11C8FF31E00ACD026 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		E080B7E21C8FF31E00ACD026 /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+		E080B7E31C8FF31E00ACD026 /* sorts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sorts.plist; sourceTree = "<group>"; };
+		E080B7E91C8FF9B000ACD026 /* FYYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYCategory.h; sourceTree = "<group>"; };
+		E080B7EA1C8FF9B000ACD026 /* FYYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYCategory.m; sourceTree = "<group>"; };
+		E080B7EE1C8FFD4C00ACD026 /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		E080B7EF1C8FFD4C00ACD026 /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		E080B7F01C8FFD4C00ACD026 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		E080B7F11C8FFD4C00ACD026 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		E080B7F21C8FFD4C00ACD026 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		E080B7F31C8FFD4C00ACD026 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		E080B7F41C8FFD4C00ACD026 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		E080B7F51C8FFD4C00ACD026 /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		E080B7F61C8FFD4C00ACD026 /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		E080B7F71C8FFD4C00ACD026 /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		E080B7F81C8FFD4C00ACD026 /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		E080B7F91C8FFD4C00ACD026 /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		E080B7FA1C8FFD4C00ACD026 /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		E080B7FB1C8FFD4C00ACD026 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		E080B7FC1C8FFD4C00ACD026 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		E080B7FD1C8FFD4C00ACD026 /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		E080B7FE1C8FFD4C00ACD026 /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		E080B7FF1C8FFD4C00ACD026 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		E080B8001C8FFD4C00ACD026 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		E080B8011C8FFD4C00ACD026 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		E080B8021C8FFD4C00ACD026 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		E080B8031C8FFD4C00ACD026 /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		E080B8041C8FFD4C00ACD026 /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		E080B8101C90333700ACD026 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E080B8111C90333700ACD026 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E080B8131C90828000ACD026 /* FYYHomeDropDownMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYHomeDropDownMainCell.h; sourceTree = "<group>"; };
+		E080B8141C90828000ACD026 /* FYYHomeDropDownMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYHomeDropDownMainCell.m; sourceTree = "<group>"; };
+		E080B8161C9082A400ACD026 /* FYYHomeDropDownSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYHomeDropDownSubCell.h; sourceTree = "<group>"; };
+		E080B8171C9082A400ACD026 /* FYYHomeDropDownSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYHomeDropDownSubCell.m; sourceTree = "<group>"; };
+		E080B8261C90951100ACD026 /* FYYDistrictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYDistrictViewController.h; sourceTree = "<group>"; };
+		E080B8271C90951100ACD026 /* FYYDistrictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYDistrictViewController.m; sourceTree = "<group>"; };
+		E080B8281C90951100ACD026 /* FYYDistrictViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYYDistrictViewController.xib; sourceTree = "<group>"; };
+		E080B84C1C911DDC00ACD026 /* FYYCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYCityViewController.h; sourceTree = "<group>"; };
+		E080B84D1C911DDC00ACD026 /* FYYCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYCityViewController.m; sourceTree = "<group>"; };
+		E080B84E1C911DDC00ACD026 /* FYYCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYYCityViewController.xib; sourceTree = "<group>"; };
+		E080B8511C91291000ACD026 /* FYYCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYCity.h; sourceTree = "<group>"; };
+		E080B8521C91291000ACD026 /* FYYCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYCity.m; sourceTree = "<group>"; };
+		E080B8541C9129EA00ACD026 /* FYYRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYRegion.h; sourceTree = "<group>"; };
+		E080B8551C9129EA00ACD026 /* FYYRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYRegion.m; sourceTree = "<group>"; };
+		E0A28A721C91304A00666AA4 /* FYYCityGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYCityGroup.h; sourceTree = "<group>"; };
+		E0A28A731C91304A00666AA4 /* FYYCityGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYCityGroup.m; sourceTree = "<group>"; };
+		E0C6936F1C91AEE600141D31 /* FYYSearchCityResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYSearchCityResultViewController.h; sourceTree = "<group>"; };
+		E0C693701C91AEE600141D31 /* FYYSearchCityResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYSearchCityResultViewController.m; sourceTree = "<group>"; };
+		E0C693721C91B66400141D31 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		E0C693731C91B66400141D31 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		E0C693761C954BD200141D31 /* FYYMetaUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYMetaUtil.h; sourceTree = "<group>"; };
+		E0C693771C954BD200141D31 /* FYYMetaUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYMetaUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +157,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E00D779D1C96DDA4000CBFCA /* dianpingapi */ = {
+			isa = PBXGroup;
+			children = (
+				E00D779E1C96DDA4000CBFCA /* DPAPI.h */,
+				E00D779F1C96DDA4000CBFCA /* DPAPI.m */,
+				E00D77A01C96DDA4000CBFCA /* DPConstants.h */,
+				E00D77A11C96DDA4000CBFCA /* DPRequest.h */,
+				E00D77A21C96DDA4000CBFCA /* DPRequest.m */,
+			);
+			path = dianpingapi;
+			sourceTree = "<group>";
+		};
 		E0441E191C8DEAD100082CEA = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +200,7 @@
 		E0441E251C8DEAD100082CEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E080B7DF1C8FF31E00ACD026 /* Plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,8 +217,10 @@
 		E0441E511C8F292700082CEA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E0441E521C8F292700082CEA /* Controller */,
+				E0C693751C954B3E00141D31 /* Util */,
+				E080B7E81C8FF97E00ACD026 /* Model */,
 				E0441E551C8F292700082CEA /* View */,
+				E0441E521C8F292700082CEA /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -117,6 +230,18 @@
 			children = (
 				E0441E531C8F292700082CEA /* FYYHomeViewController.h */,
 				E0441E541C8F292700082CEA /* FYYHomeViewController.m */,
+				E080B7DC1C8FCBFD00ACD026 /* FYYCategoryViewController.h */,
+				E080B7DD1C8FCBFD00ACD026 /* FYYCategoryViewController.m */,
+				E080B8261C90951100ACD026 /* FYYDistrictViewController.h */,
+				E080B8271C90951100ACD026 /* FYYDistrictViewController.m */,
+				E080B8281C90951100ACD026 /* FYYDistrictViewController.xib */,
+				E00D776C1C95C142000CBFCA /* FYYSortViewController.h */,
+				E00D776D1C95C142000CBFCA /* FYYSortViewController.m */,
+				E080B84C1C911DDC00ACD026 /* FYYCityViewController.h */,
+				E080B84D1C911DDC00ACD026 /* FYYCityViewController.m */,
+				E080B84E1C911DDC00ACD026 /* FYYCityViewController.xib */,
+				E0C6936F1C91AEE600141D31 /* FYYSearchCityResultViewController.h */,
+				E0C693701C91AEE600141D31 /* FYYSearchCityResultViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +255,10 @@
 				E0441E741C8F2D3400082CEA /* FYYHomeDropDown.xib */,
 				E0441E711C8F2CC000082CEA /* FYYHomeDropDown.h */,
 				E0441E721C8F2CC000082CEA /* FYYHomeDropDown.m */,
+				E080B8131C90828000ACD026 /* FYYHomeDropDownMainCell.h */,
+				E080B8141C90828000ACD026 /* FYYHomeDropDownMainCell.m */,
+				E080B8161C9082A400ACD026 /* FYYHomeDropDownSubCell.h */,
+				E080B8171C9082A400ACD026 /* FYYHomeDropDownSubCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,8 +266,9 @@
 		E0441E591C8F292700082CEA /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				E0441E5A1C8F292700082CEA /* Category */,
 				E0441E5F1C8F292700082CEA /* Controller */,
+				E0441E5A1C8F292700082CEA /* Category */,
+				E080B7EC1C8FFD4C00ACD026 /* Lib */,
 				E0441E621C8F292700082CEA /* Other */,
 			);
 			path = Main;
@@ -147,6 +277,10 @@
 		E0441E5A1C8F292700082CEA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E0C693721C91B66400141D31 /* UIView+AutoLayout.h */,
+				E0C693731C91B66400141D31 /* UIView+AutoLayout.m */,
+				E080B8101C90333700ACD026 /* UIView+Extension.h */,
+				E080B8111C90333700ACD026 /* UIView+Extension.m */,
 				E0441E5B1C8F292700082CEA /* UIBarButtonItem+Extension.h */,
 				E0441E5C1C8F292700082CEA /* UIBarButtonItem+Extension.m */,
 				E0441E5D1C8F292700082CEA /* UIView+Frame.h */,
@@ -174,6 +308,83 @@
 				E0441E671C8F292700082CEA /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		E080B7DF1C8FF31E00ACD026 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				E080B7E01C8FF31E00ACD026 /* categories.plist */,
+				E080B7E11C8FF31E00ACD026 /* cities.plist */,
+				E080B7E21C8FF31E00ACD026 /* cityGroups.plist */,
+				E080B7E31C8FF31E00ACD026 /* sorts.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		E080B7E81C8FF97E00ACD026 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E080B7E91C8FF9B000ACD026 /* FYYCategory.h */,
+				E080B7EA1C8FF9B000ACD026 /* FYYCategory.m */,
+				E080B8511C91291000ACD026 /* FYYCity.h */,
+				E080B8521C91291000ACD026 /* FYYCity.m */,
+				E0A28A721C91304A00666AA4 /* FYYCityGroup.h */,
+				E0A28A731C91304A00666AA4 /* FYYCityGroup.m */,
+				E080B8541C9129EA00ACD026 /* FYYRegion.h */,
+				E080B8551C9129EA00ACD026 /* FYYRegion.m */,
+				E00D77691C95C014000CBFCA /* FYYSort.h */,
+				E00D776A1C95C014000CBFCA /* FYYSort.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E080B7EC1C8FFD4C00ACD026 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E00D779D1C96DDA4000CBFCA /* dianpingapi */,
+				E080B7ED1C8FFD4C00ACD026 /* MJExtension */,
+			);
+			name = Lib;
+			path = Other/Lib;
+			sourceTree = "<group>";
+		};
+		E080B7ED1C8FFD4C00ACD026 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E080B7EE1C8FFD4C00ACD026 /* MJArgument.h */,
+				E080B7EF1C8FFD4C00ACD026 /* MJArgument.m */,
+				E080B7F01C8FFD4C00ACD026 /* MJConst.h */,
+				E080B7F11C8FFD4C00ACD026 /* MJConst.m */,
+				E080B7F21C8FFD4C00ACD026 /* MJExtension.h */,
+				E080B7F31C8FFD4C00ACD026 /* MJFoundation.h */,
+				E080B7F41C8FFD4C00ACD026 /* MJFoundation.m */,
+				E080B7F51C8FFD4C00ACD026 /* MJIvar.h */,
+				E080B7F61C8FFD4C00ACD026 /* MJIvar.m */,
+				E080B7F71C8FFD4C00ACD026 /* MJMember.h */,
+				E080B7F81C8FFD4C00ACD026 /* MJMember.m */,
+				E080B7F91C8FFD4C00ACD026 /* MJMethod.h */,
+				E080B7FA1C8FFD4C00ACD026 /* MJMethod.m */,
+				E080B7FB1C8FFD4C00ACD026 /* MJType.h */,
+				E080B7FC1C8FFD4C00ACD026 /* MJType.m */,
+				E080B7FD1C8FFD4C00ACD026 /* MJTypeEncoding.h */,
+				E080B7FE1C8FFD4C00ACD026 /* MJTypeEncoding.m */,
+				E080B7FF1C8FFD4C00ACD026 /* NSObject+MJCoding.h */,
+				E080B8001C8FFD4C00ACD026 /* NSObject+MJCoding.m */,
+				E080B8011C8FFD4C00ACD026 /* NSObject+MJKeyValue.h */,
+				E080B8021C8FFD4C00ACD026 /* NSObject+MJKeyValue.m */,
+				E080B8031C8FFD4C00ACD026 /* NSObject+MJMember.h */,
+				E080B8041C8FFD4C00ACD026 /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		E0C693751C954B3E00141D31 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E0C693761C954BD200141D31 /* FYYMetaUtil.h */,
+				E0C693771C954BD200141D31 /* FYYMetaUtil.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +445,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E080B7E71C8FF31E00ACD026 /* sorts.plist in Resources */,
 				E0441E351C8DEAD100082CEA /* LaunchScreen.storyboard in Resources */,
 				E0441E6A1C8F292700082CEA /* FYYHeaderItem.xib in Resources */,
+				E080B82A1C90951100ACD026 /* FYYDistrictViewController.xib in Resources */,
+				E080B8501C911DDC00ACD026 /* FYYCityViewController.xib in Resources */,
+				E080B7E61C8FF31E00ACD026 /* cityGroups.plist in Resources */,
 				E0441E751C8F2D3400082CEA /* FYYHomeDropDown.xib in Resources */,
+				E080B7E51C8FF31E00ACD026 /* cities.plist in Resources */,
+				E080B7E41C8FF31E00ACD026 /* categories.plist in Resources */,
 				E0441E321C8DEAD100082CEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,15 +465,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E080B8081C8FFD4C00ACD026 /* MJIvar.m in Sources */,
+				E080B8291C90951100ACD026 /* FYYDistrictViewController.m in Sources */,
+				E080B8561C9129EA00ACD026 /* FYYRegion.m in Sources */,
 				E0441E6C1C8F292700082CEA /* UIView+Frame.m in Sources */,
+				E0C693711C91AEE600141D31 /* FYYSearchCityResultViewController.m in Sources */,
+				E080B8071C8FFD4C00ACD026 /* MJFoundation.m in Sources */,
+				E080B8051C8FFD4C00ACD026 /* MJArgument.m in Sources */,
+				E080B80D1C8FFD4C00ACD026 /* NSObject+MJCoding.m in Sources */,
+				E00D776B1C95C014000CBFCA /* FYYSort.m in Sources */,
+				E080B8091C8FFD4C00ACD026 /* MJMember.m in Sources */,
+				E0C693741C91B66400141D31 /* UIView+AutoLayout.m in Sources */,
+				E080B80A1C8FFD4C00ACD026 /* MJMethod.m in Sources */,
+				E00D77A31C96DDA4000CBFCA /* DPAPI.m in Sources */,
+				E0C693781C954BD200141D31 /* FYYMetaUtil.m in Sources */,
+				E080B7DE1C8FCBFD00ACD026 /* FYYCategoryViewController.m in Sources */,
+				E00D776E1C95C142000CBFCA /* FYYSortViewController.m in Sources */,
+				E080B80F1C8FFD4C00ACD026 /* NSObject+MJMember.m in Sources */,
+				E080B80C1C8FFD4C00ACD026 /* MJTypeEncoding.m in Sources */,
+				E0A28A741C91304A00666AA4 /* FYYCityGroup.m in Sources */,
+				E080B8181C9082A400ACD026 /* FYYHomeDropDownSubCell.m in Sources */,
 				E0441E6F1C8F292700082CEA /* FYYConst.m in Sources */,
+				E080B80E1C8FFD4C00ACD026 /* NSObject+MJKeyValue.m in Sources */,
 				E0441E691C8F292700082CEA /* FYYHeaderItem.m in Sources */,
 				E0441E701C8F292700082CEA /* main.m in Sources */,
+				E080B80B1C8FFD4C00ACD026 /* MJType.m in Sources */,
+				E080B8151C90828000ACD026 /* FYYHomeDropDownMainCell.m in Sources */,
+				E080B8531C91291000ACD026 /* FYYCity.m in Sources */,
 				E0441E6E1C8F292700082CEA /* AppDelegate.m in Sources */,
 				E0441E731C8F2CC000082CEA /* FYYHomeDropDown.m in Sources */,
+				E00D77A41C96DDA4000CBFCA /* DPRequest.m in Sources */,
+				E080B84F1C911DDC00ACD026 /* FYYCityViewController.m in Sources */,
 				E0441E6D1C8F292700082CEA /* FYYNavigationController.m in Sources */,
 				E0441E6B1C8F292700082CEA /* UIBarButtonItem+Extension.m in Sources */,
+				E080B8121C90333700ACD026 /* UIView+Extension.m in Sources */,
+				E080B7EB1C8FF9B000ACD026 /* FYYCategory.m in Sources */,
 				E0441E681C8F292700082CEA /* FYYHomeViewController.m in Sources */,
+				E080B8061C8FFD4C00ACD026 /* MJConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +644,7 @@
 				E0441E3B1C8DEAD100082CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

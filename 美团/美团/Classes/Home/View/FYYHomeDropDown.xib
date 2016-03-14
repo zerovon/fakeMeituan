@@ -9,31 +9,44 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FYYHomeDropDown">
-            <rect key="frame" x="0.0" y="0.0" width="300" height="360"/>
+            <rect key="frame" x="0.0" y="0.0" width="399" height="399"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lQG-pM-jwt">
-                    <rect key="frame" x="0.0" y="0.0" width="150" height="360"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lQG-pM-jwt" userLabel="主表">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="399"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="wCV-z4-kgm"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="64S-Ka-Nmg"/>
+                    </connections>
                 </tableView>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Kt-r5-7ci">
-                    <rect key="frame" x="150" y="0.0" width="150" height="360"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Kt-r5-7ci" userLabel="从表">
+                    <rect key="frame" x="200" y="0.0" width="199" height="399"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="5iF-Qw-L8K"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="hd9-VA-CHR"/>
+                    </connections>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="lQG-pM-jwt" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="2HH-9F-ukX"/>
-                <constraint firstItem="9Kt-r5-7ci" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="W22-86-NoV"/>
-                <constraint firstItem="lQG-pM-jwt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fIB-Mf-Rge"/>
-                <constraint firstAttribute="bottom" secondItem="lQG-pM-jwt" secondAttribute="bottom" id="faO-Xl-7ag"/>
-                <constraint firstAttribute="bottom" secondItem="9Kt-r5-7ci" secondAttribute="bottom" id="h3o-5v-6pY"/>
-                <constraint firstAttribute="trailing" secondItem="9Kt-r5-7ci" secondAttribute="trailing" id="iQb-zQ-dXB"/>
-                <constraint firstItem="lQG-pM-jwt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xuW-8c-IBe"/>
-                <constraint firstItem="9Kt-r5-7ci" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yhq-WK-Hnu"/>
+                <constraint firstItem="lQG-pM-jwt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="20v-qw-MvY"/>
+                <constraint firstItem="9Kt-r5-7ci" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="IEb-eu-aEh"/>
+                <constraint firstAttribute="trailing" secondItem="9Kt-r5-7ci" secondAttribute="trailing" id="eEB-pd-iWE"/>
+                <constraint firstAttribute="bottom" secondItem="lQG-pM-jwt" secondAttribute="bottom" id="eli-dp-EFQ"/>
+                <constraint firstItem="9Kt-r5-7ci" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gks-vo-dXA"/>
+                <constraint firstAttribute="bottom" secondItem="9Kt-r5-7ci" secondAttribute="bottom" id="tgU-C0-b3f"/>
+                <constraint firstItem="lQG-pM-jwt" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="ufZ-2A-mxI"/>
+                <constraint firstItem="lQG-pM-jwt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ui4-xi-SoQ"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mainTableView" destination="lQG-pM-jwt" id="FKy-gb-rMt"/>
+                <outlet property="subTableView" destination="9Kt-r5-7ci" id="duu-Qn-XQ8"/>
+            </connections>
+            <point key="canvasLocation" x="142.5" y="128.5"/>
         </view>
     </objects>
 </document>

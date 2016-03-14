@@ -20,4 +20,9 @@
  */
 - (void) addTarget:(id)target action:(SEL)action;
 
+
+- (void)setTitle:(NSString *)title;
+- (void)setSubTitle:(NSString *)subTitle;
+- (void)setIcon:(NSString *)icon highLightIcon:(NSString *)hIon;
+
 @end
